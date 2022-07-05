@@ -382,7 +382,7 @@ myList.add(8)
 myList.add(12)
 
 
-class CircularLinkedList: # this will be created without a wrapper()
+class CircularLinkedList: # a circular linked list is like a loop, you cannot add the new node  on the root position
     def __init__(self, r = None):
         self.root = r
         self.size = 0
